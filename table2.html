@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Table 1</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">ДЗ 6.1</a>
+            <nav class="nav-links">
+                <a href="index.html">Простая таблица</a>
+                <a href="table2.html" class="active">Сложная таблица</a>
+                <a href="table3.html">Таблица Мондриана</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content">
+        <div class="container">
+            <h1>Сложная таблица</h1>
+            <table class="w90p">
+                <caption>Вторая таблица, РОДИТЕЛЬСКАЯ</caption>
+                <tr>
+                    <td class="w40p" colspan="2">1-2</td>
+                    <td class="w60p">3</td>
+                </tr>
+                <tr>
+                    <td class="w28p">4</td>
+                    <td class="w72p" colspan="2" rowspan="2">
+
+                        <table class="w80p">
+                            <caption>Вторая таблица, ДОЧЕРНЯЯ</caption>
+                            <tr>
+                                <td>1</td>
+                                <td rowspan="3">2-5-8</td>
+                                <td class="h200" rowspan="2">3-6</td>
+                            </tr>
+                            <tr>
+                                <td class="h200" rowspan="2">4-7</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="w28p">7</td>
+                </tr>
+            </table>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>ДЗ 6.1 - Таблиця Мондріана</p>
+            <p class="copyright">© 2026 Все права защищены</p>
+        </div>
+    </footer>
+</body>
+
+</html>
