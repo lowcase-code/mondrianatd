@@ -121,8 +121,15 @@ h1 {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Footer */
@@ -161,7 +168,7 @@ table {
 
 table:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 caption {
@@ -184,16 +191,41 @@ td:hover {
     background-color: rgba(52, 152, 219, 0.05);
 }
 
-.h200 { height: 200px; }
-.h50 { height: 50px; }
+.h200 {
+    height: 200px;
+}
 
-.w90p { width: 90%; }
-.w80p { width: 80%; }
-.w75p { width: 75%; }
-.w60p { width: 60%; }
-.w40p { width: 40%; }
-.w28p { width: 28%; }
-.w72p { width: 72%; }
+.h50 {
+    height: 50px;
+}
+
+.w90p {
+    width: 90%;
+}
+
+.w80p {
+    width: 80%;
+}
+
+.w75p {
+    width: 75%;
+}
+
+.w60p {
+    width: 60%;
+}
+
+.w40p {
+    width: 40%;
+}
+
+.w28p {
+    width: 28%;
+}
+
+.w72p {
+    width: 72%;
+}
 
 /* Mondrian Specific */
 .mondrian {
@@ -210,27 +242,113 @@ td:hover {
     padding: 0;
 }
 
-.w13p { width: 13%; }
-.w21p { width: 21%; }
-.w34p { width: 34%; }
-.w3p { width: 3%; }
-.w22p { width: 22%; }
-.w24p { width: 24%; }
-.w25p { width: 25%; }
-.w46p { width: 46%; }
-.w15p { width: 15%; }
-.w16p { width: 16%; }
-.w31p { width: 31%; }
-.w10p { width: 10%; }
+.w13p {
+    width: 13%;
+}
 
-tr.mondrian-r1 td { height: 15%; }
-tr.mondrian-r2-3 td { height: 20%; }
-tr.mondrian-r4 td { height: 13%; }
-tr.mondrian-r5 td { height: 11%; }
-tr.mondrian-r6 td { height: 11%; }
-tr.mondrian-r7 td { height: 10%; }
+.w21p {
+    width: 21%;
+}
 
-.yelloy { background-color: #F8CE2E; }
-.red { background-color: #DA422A; }
-.black { background-color: #000; }
-.blue { background-color: #3C5F99; }
+.w34p {
+    width: 34%;
+}
+
+.w3p {
+    width: 3%;
+}
+
+.w22p {
+    width: 22%;
+}
+
+.w24p {
+    width: 24%;
+}
+
+.w25p {
+    width: 25%;
+}
+
+.w46p {
+    width: 46%;
+}
+
+.w15p {
+    width: 15%;
+}
+
+.w16p {
+    width: 16%;
+}
+
+.w31p {
+    width: 31%;
+}
+
+.w10p {
+    width: 10%;
+}
+
+tr.mondrian-r1 td {
+    height: 15%;
+}
+
+tr.mondrian-r2-3 td {
+    height: 20%;
+}
+
+tr.mondrian-r4 td {
+    height: 13%;
+}
+
+tr.mondrian-r5 td {
+    height: 11%;
+}
+
+tr.mondrian-r6 td {
+    height: 11%;
+}
+
+tr.mondrian-r7 td {
+    height: 10%;
+}
+
+.yelloy {
+    background-color: #F8CE2E;
+}
+
+.red {
+    background-color: #DA422A;
+}
+
+.black {
+    background-color: #000;
+}
+
+.blue {
+    background-color: #3C5F99;
+}
+
+/* Simple table from task */
+.simple-table {
+    width: 75%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.simple-table .w33p {
+    width: 33.33%;
+}
+
+.simple-table td {
+    height: 50px;
+    padding: 0;
+    border: 1px solid #333;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.simple-table .h200 {
+    height: 200px;
+}
